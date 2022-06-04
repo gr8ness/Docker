@@ -13,3 +13,5 @@ RUN chmod 755 date.sh
 ENTRYPOINT ["./date.sh"]
 
 CMD ["date.sh"]
+
+CMD ["tail", "-f", "/dev/null"]
